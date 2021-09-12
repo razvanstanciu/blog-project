@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    max-width: 100vw;
+}
+
+.navbar {
+    padding: 27px 60px;
+    text-align: right;
+}
+
+.navbar a {
+    margin-left: 33px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29.38px;
+    text-decoration: none;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.profile-picture {
+    background-image: url(/images/ellipse-1.svg);
+    width: 243px;
+    height: 243px;
+    min-width: 243px;
+    border-radius: 50%;
+}
