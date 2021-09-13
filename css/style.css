@@ -24,9 +24,46 @@ body {
 }
 
 header {
+    padding: 140px 149px 71px 148px;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    justify-content: space-around;
+}
+
+.relative-header {
+   display: flex;
+   justify-content: center;
+}
+
+text {
+    margin-right: 101px;
+}
+
+.text h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    margin-bottom: 40px;
+    color: #21243D;
+    
+}
+
+.text p {
+    line-height: 23.5px;
+    margin-bottom: 38px;
+    color: #21243D;
+
+}
+
+.text button {
+    color: #FFFFFF;
+    background-color: #FF6464;
+    border-radius: 2px;
+    width: 208px;
+    height: 47px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29.38px;
+    border: none;
 }
 
 .profile-picture {
@@ -35,4 +72,16 @@ header {
     height: 243px;
     min-width: 243px;
     border-radius: 50%;
+    position: absolute;
+}
+
+.picture-shadow {
+    position: relative;
+    right: 5px;
+    top: 13px;
+    width: 243px;
+    height: 243px;
+    min-width: 243px;
+    border-radius: 50%;
+    background-color: #EDF7FA;
 }
