@@ -24,18 +24,18 @@ body {
 }
 
 header {
-    padding: 140px 149px 71px 148px;
+    padding: 140px 149px 78px 148px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .relative-header {
-   display: flex;
-   justify-content: center;
+   position: relative;
 }
 
-text {
-    margin-right: 101px;
+.text {
+    margin-right: 106px;
+    width: 506px;
 }
 
 .text h1 {
@@ -72,7 +72,8 @@ text {
     height: 243px;
     min-width: 243px;
     border-radius: 50%;
-    position: absolute;
+    position: relative;
+    bottom: 240px;
 }
 
 .picture-shadow {
@@ -84,4 +85,74 @@ text {
     min-width: 243px;
     border-radius: 50%;
     background-color: #EDF7FA;
+}
+
+.recent-posts {
+    padding: 7px 148px 32px 148px;
+    background-color: #EDF7FA;
+    display: flex;
+    flex-direction: column;
+}
+
+.recent-posts h2 {
+    margin-right: 676px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.recent-posts a {
+    font-size: 16px;
+    line-height: 13.5px;
+    text-align: right;
+    color: #00A8CC;
+}
+
+.row-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-card {
+    margin-right: 20px;
+}
+
+.recent-post-section {
+    padding: 24px 23px;
+    border-radius: 4px;
+    height: 295px;
+    width: 418px;
+    background-color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.recent-post-section h3 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38.19px;
+    color: #21243D;
+    margin-bottom: 17px;
+}
+
+.date {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26.44px;
+    color: #21243D;
+    margin-bottom: 11px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.5px;
+    color: #21243D;
 }
