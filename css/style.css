@@ -29,7 +29,7 @@ header {
     justify-content: center;
 }
 
-.relative-header {
+.picture-container {
    position: relative;
 }
 
@@ -126,6 +126,7 @@ header {
 }
 
 .recent-post-section {
+    overflow: hidden;
     padding: 24px 23px;
     border-radius: 4px;
     height: 295px;
@@ -155,4 +156,53 @@ header {
     font-size: 16px;
     line-height: 23.5px;
     color: #21243D;
+}
+
+.footer-section p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.56px;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 26px;
+    margin-top: 51px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.facebook-icon {
+    background-image: url(/images/fb.svg);
+    margin-right: 35px;
+}
+
+.instagram-icon {
+    background-image: url(/images/insta.svg);
+    margin-right: 35px;
+}
+
+.twitter-icon {
+    background-image: url(/images/Group.svg);
+    margin-right: 35px;
+    width: 36.92px;
+    height: 30px;
+}
+
+.linkedin-icon {
+    background-image: url(/images/Linkedin.svg);
 }
