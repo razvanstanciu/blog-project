@@ -1,0 +1,13 @@
+nav {
+    padding: 27px 60px;
+    text-align: right;
+}
+
+nav a {
+    margin-left: 33px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29.38px;
+    text-decoration: none;
+    color: #000000;
+}
