@@ -4,3 +4,35 @@
     box-sizing: border-box;
     font-family: 'Heebo', sans-serif;
 }
+
+h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 55px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44.06px;
+    color: #21243D;
+    margin-bottom: 16px;
+}
+
+.opened-link {
+    color: red;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    padding: 90px 235px 0 260px;
+    flex-direction: column;
+}
+
+hr {
+    color: #E0E0E0;
+    margin: 30px 0;
+}
