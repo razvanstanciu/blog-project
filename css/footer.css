@@ -13,7 +13,7 @@ footer {
     flex-direction: column;
 }
 
-.social-icons {
+footer .social-icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,6 @@ footer {
 
 .icon {
     width: 30px;
-    height: 30px;
 }
 
 .facebook-icon {

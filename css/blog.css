@@ -25,6 +25,34 @@ h2 {
     color: red;
 }
 
+.date {
+    font-weight: 400;
+    font-size: 20px;
+    color: #21243D;
+}
+
+.line {
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    margin: 0 10px;
+    height: 21px;
+    position: relative;
+    top: 4px;
+}
+
+.keywords {
+    font-weight: 400;
+    font-size: 20px;
+    color: #8695A4;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243D;
+    margin-top: 6px;
+}
+
 article {
     display: flex;
     justify-content: center;
