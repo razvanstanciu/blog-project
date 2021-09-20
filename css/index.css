@@ -17,7 +17,6 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .picture-container {
@@ -64,11 +63,11 @@ header {
     min-width: 243px;
     border-radius: 50%;
     position: relative;
-    bottom: 240px;
+    z-index: 2;
 }
 
 .picture-shadow {
-    position: relative;
+    position: absolute;
     right: 5px;
     top: 13px;
     width: 243px;
@@ -246,5 +245,10 @@ header {
 @media only screen and (max-width: 600px) {
     header {
         flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .picture-container {
+        height: fit-content;
     }
 }
