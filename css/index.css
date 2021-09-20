@@ -17,6 +17,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .picture-container {
@@ -242,6 +243,8 @@ header {
     margin: 30px 0;
 }
 
-@media only screen and (max-width: 400px) {
-    
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column-reverse;
+    }
 }
