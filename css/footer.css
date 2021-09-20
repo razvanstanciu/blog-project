@@ -17,12 +17,12 @@ footer .social-icons {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 26px;
-    margin-top: 51px;
+    width: 190px;
 }
 
-.icon {
+/* .icon {
     margin-right: 10px;
-}
+} */
 
 img .icon {
     width: 30px;
