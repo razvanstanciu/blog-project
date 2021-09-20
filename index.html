@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Blog Project</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,13 +12,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <a href="#">Works</a>
-        <a href="#">Blog</a>
-        <a href="#">Contract</a>
+
+    <nav class="navbar">
+        <div class="navbar-text">
+            <a href="blog.html">Blog</a>
+            <a href="work.html">Works</a>
+            <a href="#">Contract</a>
+        </div>
+        <div class="navbar-icon">
+            <div class="navbar-line"></div>
+            <div class="navbar-line"></div>
+            <div class="navbar-line"></div>
+        </div>
     </nav>
+
     <div class="home-ct">
-        <!-- TODO: width: 100% -->
         <header>
             <div class="text">
                 <h1>Hi, I am John, Creative Technologist</h1>
@@ -29,6 +38,7 @@
                 <div class="profile-picture"></div>
             </div>
         </header>
+
         <article class="recent-posts">
             <div class="row-section">
                 <h2>Recent posts</h2>
@@ -47,6 +57,7 @@
                 </section>
             </div>    
         </article>
+
         <article class="featured-works">
             <div class="featured-works-container">
                 <h2>Featured works</h2>
@@ -95,6 +106,7 @@
             </div>    
         </article>
     </div>
+
     <footer>
         <section class="footer-section">
             <div class="social-icons">
@@ -106,5 +118,6 @@
             <p>Copyright ©2020 All rights reserved</p>
         </section>
     </footer>
+
 </body>
 </html>
