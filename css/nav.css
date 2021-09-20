@@ -1,4 +1,6 @@
 nav {
+    margin: 0 auto;
+    width: min(90%);
     padding: 27px 60px;
     text-align: right;
 }
@@ -10,5 +12,11 @@ nav a {
     line-height: 29.38px;
     text-decoration: none;
     color: #000000;
+}
+
+@media only screen and (max-width: 400px) {
+    nav {
+        padding: 10px;
+    }
 }
 
