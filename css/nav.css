@@ -25,18 +25,16 @@ nav a {
 
 .navbar-icon {
     display: none;
-    margin: 7px 0 0 7px;
 }
 
 .navbar-line {
-    width: 20px;
+    width: 30px;
     height: 2px;
     background-color: black;
-    margin-bottom: 3px;
+    margin-bottom: 9px;
 }
 
 @media only screen and (max-width: 600px) {
-    
     .navbar-icon {
         display: block;
     }
@@ -45,7 +43,7 @@ nav a {
         display: none;
     }
 
-    section {
-        padding: 18px;
+    nav {
+        padding: 38px 18px 12px 18px;
     }
 }
