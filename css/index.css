@@ -246,9 +246,74 @@ header {
     header {
         flex-direction: column-reverse;
         align-items: center;
+        padding: 33px 24px 59px 24px;
     }
     
-    .picture-container {
+    header .picture-container {
         height: fit-content;
+        margin-bottom: 34px;
+    }
+
+    header .text {
+        margin: 0 24px;
+        text-align: center;
+        width: auto;
+    }
+
+    .recent-posts {
+        width: auto;
+    }
+
+    .row-section h2 {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .row-section a {
+        display: none;
+    }
+
+    .card-section {
+        flex-direction: column;
+        padding: 0 12px 38px 12px;
+    }
+
+    .recent-post-section {
+        width: auto;
+        margin-bottom: 0;
+    }
+
+    .left-card {
+        margin-right: 0;
+        margin-bottom: 17px;
+    }
+
+    .featured-works-container {
+        width: auto;
+        padding: 2px 18px;
+    }
+
+    .featured-works-container h2 {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .featured-works-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-image {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 18px;
+    }
+
+    .information {
+        justify-content: center;
+    }
+
+    footer {
+        margin-top: 150px;
     }
 }
