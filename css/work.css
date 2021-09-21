@@ -1,3 +1,101 @@
 .active {
     color: red;
 }
+
+.featured-works {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-works-container {
+    width: 858px;
+}
+
+.featured-works-container h2 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 22px;
+}
+
+.featured-works-section {
+    display: flex;
+    justify-content: center;
+}
+
+.project-image {
+    width: 246px;
+    min-width: 246px;
+    height: 180px;
+    border-radius: 6px;
+    margin-right: 18px;
+}
+
+.dashboard-image {
+    background-image: url(/images/Rectangle\ 30.svg);
+}
+
+.portrait-image {
+    background-image: url(/images/Rectangle\ 32.svg);
+}
+
+.malayalam-image {
+    background-image: url(/images/Rectangle\ 34.svg);
+}
+
+.components-image {
+    background-image: url(/images/Rectangle\ 40.svg);
+}
+
+.project-information h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44.06px;
+    margin-bottom: 2px;
+    color: #21243D;
+}
+
+.information {
+    display: flex;
+    margin-bottom: 17px;
+}
+
+.year-container {
+    margin-right: 26px;
+    width: 62px;
+    height: 25px;
+    border-radius: 16px;
+    background-color: #142850;
+}
+
+.year {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    width: 62px;
+    height: 25px;
+}
+
+.project-name {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29.38px;
+    color: #8695A4;
+}
+
+.project-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.5px;
+    color: #21243D;
+}
+
+.horizontal-line {
+    color: #E0E0E0;
+    margin: 30px 0;
+}
