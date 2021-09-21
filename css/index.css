@@ -192,6 +192,10 @@ header {
     background-image: url(/images/Rectangle\ 34.svg);
 }
 
+.components-image {
+    background-image: url(/images/Rectangle\ 40.svg);
+}
+
 .project-information h3 {
     font-weight: 700;
     font-size: 30px;
