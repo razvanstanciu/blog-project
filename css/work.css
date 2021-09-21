@@ -99,3 +99,34 @@
     color: #E0E0E0;
     margin: 30px 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .featured-works-container {
+        width: auto;
+        padding: 2px 18px;
+    }
+
+    .featured-works-container h2 {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .featured-works-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-image {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 18px;
+    }
+
+    .information {
+        justify-content: center;
+    }
+
+    footer {
+        margin-top: 150px;
+    }
+}
