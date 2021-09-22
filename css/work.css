@@ -47,12 +47,13 @@
     background-image: url(/images/Rectangle\ 40.svg);
 }
 
-.project-information h3 {
+.project-information a {
     font-weight: 700;
     font-size: 30px;
     line-height: 44.06px;
     margin-bottom: 2px;
     color: #21243D;
+    text-decoration: none;
 }
 
 .information {

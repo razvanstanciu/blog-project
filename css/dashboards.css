@@ -1,0 +1,54 @@
+section {
+    width: 100%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 49.94px;
+    color: #21243D;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #21243D;
+    line-height: 60px;
+}
+
+.information {
+    display: flex;
+    margin-bottom: 23px;
+}
+
+.year-container {
+    margin-right: 26px;
+    width: 62px;
+    height: 25px;
+    border-radius: 16px;
+    background-color: #FF7C7C;
+}
+
+.year {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    width: 62px;
+    height: 25px;
+}
+
+.project-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29.38px;
+    color: #21243D;
+    margin-bottom: 46px;
+}
+
+.dash-photo {
+    margin: 27px 0;
+}
