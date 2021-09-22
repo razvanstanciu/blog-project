@@ -46,9 +46,37 @@ h2 {
     font-size: 20px;
     line-height: 29.38px;
     color: #21243D;
+}
+
+.project-information {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.5px;
+    color: #21243D;
     margin-bottom: 46px;
 }
 
 .dash-photo {
     margin: 27px 0;
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .project-description {
+        font-size: 18px;
+        line-height: 26.44px;
+    }
+
 }
