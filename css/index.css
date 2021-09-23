@@ -266,6 +266,16 @@ header {
         width: auto;
     }
 
+    header .text h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    header .text p {
+        font-size: 16px;
+        line-height: 23.5px;
+    }
+
     .recent-posts {
         width: auto;
     }
@@ -273,6 +283,7 @@ header {
     .row-section h2 {
         text-align: center;
         margin-right: 0;
+        font-size: 18px;
     }
 
     .row-section a {
@@ -306,17 +317,16 @@ header {
 
     .featured-works-section {
         flex-direction: column;
-        text-align: center;
     }
 
     .project-image {
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
         margin-bottom: 18px;
     }
 
     .information {
-        justify-content: center;
+        margin-top: 22px;
+        margin-bottom: 27px;
     }
 
     footer {
