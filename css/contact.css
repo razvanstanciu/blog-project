@@ -1,0 +1,60 @@
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+p,
+h1 {
+    color: #21243D;
+}
+
+.container {
+    width: 1000px;
+}
+
+.upper-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.icons {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.upper-left {
+    overflow: hidden;
+}
+
+.upper-right {
+    border: 1px solid #E0E0E0;
+    background-color: #EDF7FA;
+    padding: 30px;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #E0E0E0;
+    background-color: #EDF7FA;
+}
+
+.news {
+    display: flex;
+}
+
+.newsletter {
+    background-color: #FFF;
+    border-radius: 50%;
+    background-size: cover;
+}
