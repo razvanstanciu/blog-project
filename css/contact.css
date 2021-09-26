@@ -89,6 +89,9 @@ h1 {
     margin-bottom: 10px;
     border: 0;
     padding: 10px;
+}
+
+.message::placeholder {
     color: #E0E0E0;
 }
 
@@ -123,10 +126,21 @@ h1 {
 
 .newsletter {
     width: 80px;
-    object-fit: cover;
+    min-width: 80px;
+    height: 80px;
     background-color: #FFF;
     border-radius: 50%;
     margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4px;
+    padding-bottom: 4px;
+}
+
+.newsletter img {
+    width: 50px;
+
 }
 
 .news-subscription {
