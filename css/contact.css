@@ -9,22 +9,40 @@ h1 {
     color: #21243D;
 }
 
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
 .container {
     width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .upper-container {
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.first-contact {
+    margin-top: 10px;
 }
 
 .contact {
+    width: fit-content;
     display: flex;
     align-items: center;
     border: 1px solid #E0E0E0;
     margin-bottom: 10px;
     padding: 10px;
+}
+
+.contact:last-of-type {
+    margin-bottom: 0;
 }
 
 .icons {
@@ -33,28 +51,107 @@ h1 {
 }
 
 .upper-left {
+    text-align: initial;
     overflow: hidden;
+    width: 500px;
+}
+
+.contact-me {
+    color: #FF6464;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .upper-right {
     border: 1px solid #E0E0E0;
     background-color: #EDF7FA;
     padding: 30px;
+    width: 400px;
+}
+
+.input {
+    height: 40px;
+    width: 335px;
+    margin-bottom: 10px;
+    border: 0;
+    padding: 10px;
+}
+
+.input::placeholder {
+    color: #E0E0E0;
+}
+
+.message {
+    resize: none;
+    width: 335px;
+    margin-bottom: 10px;
+    border: 0;
+    padding: 10px;
+    color: #E0E0E0;
+}
+
+.input-btn {
+    border: 0;
+    height: 40px;
+    width: 335px;
+    background-color: #FF6464;
+    color: #FFF;
 }
 
 .bottom-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     border: 1px solid #E0E0E0;
     background-color: #EDF7FA;
+    margin-bottom: 100px;
+    width: 980px;
+    padding: 50px;
 }
 
 .news {
+    width: 500px;
     display: flex;
+    align-items: center;
+}
+
+.news p {
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .newsletter {
+    width: 80px;
+    object-fit: cover;
     background-color: #FFF;
     border-radius: 50%;
-    background-size: cover;
+    margin-right: 30px;
+}
+
+.news-subscription {
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.text-input {
+    height: 40px;
+    width: 200px;
+    border: 0;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.subscribe-btn {
+    border: 0;
+    height: 40px;
+    width: 120px;
+    background-color: #FF6464;
+    color: #FFF;
+}
+
+@media only screen and (max-width: 600px) {
+
 }
