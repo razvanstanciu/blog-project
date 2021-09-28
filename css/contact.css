@@ -187,6 +187,7 @@ textarea {
 
     .upper-container {
         flex-direction: column;
+        margin-bottom: 10px;
     }
 
     .upper-left {
