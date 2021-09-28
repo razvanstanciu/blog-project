@@ -14,6 +14,11 @@ h1 {
     margin-bottom: 10px;
 }
 
+input, 
+textarea {
+    border: 1px solid #E0E0E0;
+}
+
 .container {
     width: 1000px;
     display: flex;
@@ -75,7 +80,6 @@ h1 {
     height: 40px;
     width: 335px;
     margin-bottom: 10px;
-    border: 0;
     padding: 10px;
 }
 
@@ -87,7 +91,6 @@ h1 {
     resize: none;
     width: 335px;
     margin-bottom: 10px;
-    border: 0;
     padding: 10px;
 }
 
@@ -96,7 +99,6 @@ h1 {
 }
 
 .input-btn {
-    border: 0;
     height: 40px;
     width: 335px;
     background-color: #FF6464;
@@ -153,13 +155,11 @@ h1 {
 .text-input {
     height: 40px;
     width: 200px;
-    border: 0;
     padding: 10px;
     margin-right: 10px;
 }
 
 .subscribe-btn {
-    border: 0;
     height: 40px;
     width: 120px;
     background-color: #FF6464;
@@ -167,5 +167,70 @@ h1 {
 }
 
 @media only screen and (max-width: 600px) {
+    .container,
+    .upper-container,
+    .upper-left,
+    .upper-right,
+    .bottom-container {
+        width: 300px;
+    }
+
+    .input,
+    .message,
+    .input-btn {
+        width: 278px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .upper-container {
+        flex-direction: column;
+    }
+
+    .upper-left {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .upper-right {
+        padding: 10px;
+    }
+
+    .bottom-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .news,
+    .news-subscription {
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    .news {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .newsletter {
+        margin-right: 0;
+    }
+
+    .text-input,
+    .subscribe-btn {
+        width: 278px;
+    }
+
+    .text-input {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    
+
     
 }
